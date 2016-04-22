@@ -2,8 +2,8 @@
   "version": "1.0.0-*",
   "description": "Q42.Logging.ApplicationInsights Class Library",
   "authors": [ "Q42" ],
-  "tags": [ "" ],
-  "projectUrl": "",
+  "tags": [ "application insights logging" ],
+  "projectUrl": "https://github.com/Q42/Q42.Logging.ApplicationInsights",
   "licenseUrl": "",
 
   "frameworks": {
