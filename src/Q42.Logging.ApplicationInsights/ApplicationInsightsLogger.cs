@@ -62,6 +62,8 @@ namespace Q42.Logging.ApplicationInsights
 				case LogLevel.Information:
 					level = SeverityLevel.Information;
 					break;
+				case LogLevel.Debug:
+				case LogLevel.Trace:
 				default:
 					level = SeverityLevel.Verbose;
 					break;
