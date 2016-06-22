@@ -3,12 +3,12 @@
   "description": "Q42.Logging.ApplicationInsights Class Library",
   "authors": [ "Q42" ],
   "frameworks": {
-    "netstandard1.5": {
+    "netstandard1.1": {
       "imports": "dnxcore50"
     }
   },
   "dependencies": {
-    "Microsoft.ApplicationInsights": "2.1.0-beta4",
+    "Microsoft.ApplicationInsights": "2.1.0",
     "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc2-final"
   }
 }
