@@ -1,10 +1,12 @@
 ﻿{
-  "version": "1.0.0-*",
+  "version": "1.0.0",
   "description": "Q42.Logging.ApplicationInsights Class Library",
   "authors": [ "Q42" ],
   "frameworks": {
     "netstandard1.1": {
-      "imports": "dnxcore50"
+      "imports": [
+        "dotnet5.6"
+      ]
     }
   },
   "dependencies": {
