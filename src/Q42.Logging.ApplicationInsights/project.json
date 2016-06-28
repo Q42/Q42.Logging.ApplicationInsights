@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "Microsoft.ApplicationInsights": "2.1.0",
-    "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc2-final"
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.0"
   }
 }
