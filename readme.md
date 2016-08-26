@@ -5,6 +5,8 @@ Q42.Logging.ApplicationInsights
 
 Small library that will send logs to Application Insights when using the default ASP.Net Core 1.0 logging.
 
+Available on [NuGet](https://www.nuget.org/packages/Q42.Logging.ApplicationInsights/)
+
 Usage:
 Make sure you've set up ApplicationInsights in your application:
 
