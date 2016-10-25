@@ -29,19 +29,23 @@ namespace Q42.Logging.ApplicationInsights
 				return;
 			}
 
-			var message = string.Empty;
-			if (state != null)
-			{
-				message += state;
-			}
 			if (exception != null)
 			{
-				message += Environment.NewLine + exception;
+				_telemetryClient.TrackException(exception, new Dictionary<string, string> { { "EventId", eventId.ToString() }, { "Message", state.ToString() } });
 			}
-
-			if (!string.IsNullOrEmpty(message))
+			else
 			{
-				_telemetryClient.TrackTrace(message, ConvertSeverityLevel(logLevel), new Dictionary<string, string> { { "EventId", eventId.ToString() }});
+
+				var message = string.Empty;
+				if (state != null)
+				{
+					message += state;
+				}
+
+				if (!string.IsNullOrEmpty(message))
+				{
+					_telemetryClient.TrackTrace(message, ConvertSeverityLevel(logLevel), new Dictionary<string, string> { { "EventId", eventId.ToString() } });
+				}
 			}
 		}
 

@@ -21,5 +21,18 @@ namespace Q42.Logging.ApplicationInsights
 			return factory;
 		}
 
+		
+
+	}
+}
+
+namespace Microsoft.Extensions.Logging
+{
+	public static class LoggerExtensions
+	{
+		public static void LogException(this ILogger logger, Exception ex, string message = null)
+		{
+			logger.LogError(new EventId(), ex, message ?? string.Empty);
+		}
 	}
 }
