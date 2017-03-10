@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Q42.Logging.ApplicationInsights Class Library</Description>
+    <VersionPrefix>1.2.0</VersionPrefix>
+    <Authors>Q42, Michiel Post</Authors>
+    <TargetFramework>netstandard1.5</TargetFramework>
+    <AssemblyName>Q42.Logging.ApplicationInsights</AssemblyName>
+    <PackageId>Q42.Logging.ApplicationInsights</PackageId>
+    <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6</PackageTargetFallback>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.2.1</Version>
+    <PackageProjectUrl>https://github.com/Q42/Q42.Logging.ApplicationInsights</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Q42/Q42.Logging.ApplicationInsights</RepositoryUrl>
+    <PackageIconUrl>http://logo.q42.com/q42-logo-big.png</PackageIconUrl>
+    <PackageTags>logging, applicationinsights</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>

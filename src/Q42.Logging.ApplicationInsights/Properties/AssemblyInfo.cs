@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Q42.Logging.ApplicationInsights")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Logging adapter to send logs to Application Insights")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Q42")]
 [assembly: AssemblyProduct("Q42.Logging.ApplicationInsights")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
