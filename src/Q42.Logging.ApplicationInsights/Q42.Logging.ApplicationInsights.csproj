@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Description>Q42.Logging.ApplicationInsights Class Library</Description>
-    <VersionPrefix>1.2.1</VersionPrefix>
+    <VersionPrefix>1.2.2</VersionPrefix>
     <Authors>Q42, Michiel Post</Authors>
     <TargetFramework>netstandard1.5</TargetFramework>
     <AssemblyName>Q42.Logging.ApplicationInsights</AssemblyName>
@@ -15,7 +15,7 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.2.1</Version>
+    <Version>1.2.2</Version>
     <PackageProjectUrl>https://github.com/Q42/Q42.Logging.ApplicationInsights</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Q42/Q42.Logging.ApplicationInsights</RepositoryUrl>
     <PackageIconUrl>http://logo.q42.com/q42-logo-big.png</PackageIconUrl>
