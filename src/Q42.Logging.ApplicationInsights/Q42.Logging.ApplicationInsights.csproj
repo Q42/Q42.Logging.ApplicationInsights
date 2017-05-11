@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Description>Q42.Logging.ApplicationInsights Class Library</Description>
-    <VersionPrefix>1.2.0</VersionPrefix>
+    <VersionPrefix>1.2.1</VersionPrefix>
     <Authors>Q42, Michiel Post</Authors>
     <TargetFramework>netstandard1.5</TargetFramework>
     <AssemblyName>Q42.Logging.ApplicationInsights</AssemblyName>
