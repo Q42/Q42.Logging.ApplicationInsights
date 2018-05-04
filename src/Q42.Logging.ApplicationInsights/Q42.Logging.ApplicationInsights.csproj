@@ -7,7 +7,6 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Q42.Logging.ApplicationInsights</AssemblyName>
     <PackageId>Q42.Logging.ApplicationInsights</PackageId>
-    <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6</PackageTargetFallback>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
