@@ -1,8 +1,6 @@
 Q42.Logging.ApplicationInsights
 =========
 
-[![Build status](https://ci.appveyor.com/api/projects/status/oquqg1efmr8drhfh/branch/master?svg=true)](https://ci.appveyor.com/project/Q42/q42-logging-applicationinsights/branch/master)
-
 Small library that will send logs to Application Insights when using the default ASP.Net Core 1.0 logging.
 
 Available on [NuGet](https://www.nuget.org/packages/Q42.Logging.ApplicationInsights/)
